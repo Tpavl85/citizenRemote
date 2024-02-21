@@ -72,7 +72,7 @@ function App() {
                 <Avatar alt="Ukraine" src="/Ukraine.svg" sx={{ height: '32px', width: '32px' }} />
               </div>
             </div>
-            <div className={'bg-white rounded-[20px] p-5 mt-5 flex flex-1  '}>
+            <div className={'bg-white rounded-[20px] p-5 mt-5 flex flex-1 flex-col  '}>
               <span className={'text-xs self-start  pb-[4px] border-dotted border-b-2'}>
                 Finance Information
               </span>
