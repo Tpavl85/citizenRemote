@@ -1,4 +1,4 @@
-export const Logo: React.FC<{}> = () => {
+export const Logo = () => {
   return (
     <>
       <span className={'flex items-center flex-row gap-2 ml-6 absolute left-0 h-full'}>
