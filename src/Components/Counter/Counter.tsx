@@ -2,7 +2,7 @@ import { ICounter } from './Counter.types.ts';
 import { IconButton } from '@mui/material';
 import RemoveIcon from '@mui/icons-material/Remove';
 import AddIcon from '@mui/icons-material/Add';
-import React, { FC, useState } from 'react';
+import { FC, useState } from 'react';
 
 export const Counter: FC<ICounter> = ({ subText, header, initialValue }) => {
   const [number, setNumber] = useState(initialValue);
