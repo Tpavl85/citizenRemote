@@ -1,3 +1,5 @@
 import { ButtonOwnProps } from '@mui/material';
 
-export interface IButtonProps extends ButtonOwnProps {}
+export interface IButtonProps extends ButtonOwnProps {
+  className?: string;
+}
